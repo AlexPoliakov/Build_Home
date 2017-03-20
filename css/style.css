@@ -1,0 +1,519 @@
+
+body {
+    font-family: normal, Arial, sans-serif;
+    font-size: 13px;
+    background: #fff;
+}
+
+
+.wrapper_white {
+    width: 1160px;
+    margin: 0 auto;
+    background: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+header {
+    padding-top: 36px;
+}
+
+header .logo-social {
+    content: "";
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 36px;
+}
+
+header .logo {
+    float: left;
+    width: 205px;
+    background: url("../img/logo.png") no-repeat;
+    height: 37px;
+    margin-left: 5px;
+}
+
+header .social {
+    position: relative;
+    float: right;
+    width: 180px;
+    height: 37px;
+    background: url("../img/social.png") no-repeat;
+}
+
+header .social .social_link:nth-child(1) {
+    position: absolute;
+    top: 8px;
+    left: 24px;
+    width: 17px;
+    height: 19px;
+}
+
+header .social .social_link:nth-child(2) {
+    position: absolute;
+    top: 9px;
+    left: 57px;
+    width: 21px;
+    height: 18px;
+}
+
+header .social .social_link:nth-child(3) {
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    width: 21px;
+    height: 19px;
+}
+
+header .social .social_link:nth-child(4) {
+    position: absolute;
+    top: 9px;
+    left: 124px;
+    width: 20px;
+    height: 18px;
+}
+
+header .social .social_link:nth-child(5) {
+    position: absolute;
+    top: 8px;
+    left: 155px;
+    width: 22px;
+    height: 20px;
+}
+
+header nav {
+    width: 1160px;
+    height: 56px;
+    background: #2B2E34;
+    overflow: hidden;
+    margin-bottom: 36px;
+}
+
+header nav .menu_item {
+    float: left;
+    list-style: none;
+    padding: 20px 40px;
+    border-right: 1px solid #17191C;
+}
+
+header nav .menu_item:active {
+    background: #288CEA;
+}
+
+header nav .menu_link {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav .menu_link:hover {
+    color: #F3B519;
+}
+
+header nav .menu_search {
+    float: right;
+    position: relative;
+    width: 268px;
+    height: 42px;
+    margin: 6px;
+}
+
+header nav .menu_search .menu_search_form {
+    border: 1px solid #17191C;
+    width: 240px;
+    height: 40px;
+    background: #373A3E;
+    color: #fff;
+    padding: 0 12px;
+}
+
+header nav .menu_search .menu_search_icon {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    margin-left: 246px;
+    margin-top: 16px;
+    z-index: 1;
+    color: #63717f;
+    background: url("../img/loop.png") no-repeat;
+}
+
+
+.owl-nav {
+    display: none;
+}
+
+
+.owl-dots {
+    position: absolute;
+    bottom: 0;
+    right: 532px;
+}
+
+
+.owl-dot {
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #e3f3fb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    transition: all 700ms ease;
+    background-color: rgba(255, 255, 255, 0.77255);
+}
+
+
+.owl-dot.active {
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #e3f3fb;
+    transition: all 700ms ease;
+    background-color: black;
+}
+
+
+article {
+    margin-top: 60px;
+    width: 100%;
+    height: 280px;
+    content: "";
+    overflow: hidden;
+    clear: both;
+}
+
+article .article_item {
+    float: left;
+    width: 386px;
+    height: 265px;
+}
+
+article .article_item_number {
+    float: left;
+}
+
+article .article_item_number p {
+    font-family: "Ubuntu Medium", arial;
+    font-size: 90px;
+    color: #E8E8E9;
+}
+
+article .article_item_cont {
+    width: 240px;
+    float: right;
+    margin-right: 20px;
+}
+
+article .article_item_cont .article_item_icon {
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+article .article_item_cont .article_item_title {
+    font-family: "Ubuntu Medium", arial;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+article .article_item_cont .article_item_text {
+    font-size: 13px;
+    color: #898989;
+    margin-bottom: 18px;
+}
+
+article .article_item_cont .article_link {
+    display: inline;
+    text-decoration: none;
+    color: #2B2C2F;
+    font-family: "Ubuntu Medium", arial;
+    font-size: 13px;
+    background: url("../img/arrow-right-blue.png") no-repeat 67px 3px;
+}
+
+article .article_item_cont .article_link:hover {
+    color: #288CEA;
+    background: url("../img/arrow-right-grey.png") no-repeat 67px 3px;
+}
+
+
+.wrapper_black {
+    width: 100%;
+    background: #2B2E34;
+}
+
+.wrapper_black section {
+    content: "";
+    overflow: hidden;
+    clear: both;
+    width: 1160px;
+    height: 460px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.wrapper_black section .section_title {
+    margin-left: 20px;
+    margin-bottom: 55px;
+    font-family: "Ubuntu Medium", arial;
+    font-size: 24px;
+    color: #fff;
+}
+
+.wrapper_black section .service_block {
+    float: left;
+    width: 260px;
+    height: 310px;
+    margin: 0 15px;
+}
+
+.wrapper_black section .service_block .service__pict {
+    margin-bottom: 30px;
+}
+
+.wrapper_black section .service_block .service_link {
+    position: relative;
+    text-decoration: none;
+}
+
+.wrapper_black section .service_block .service_link img {
+    margin-bottom: 30px;
+}
+
+.wrapper_black section .service_block .service_link .service_title {
+    font-family: "Ubuntu Medium", arial;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper_black section .service_block .service_link .service_opacity-plus {
+    position: absolute;
+    display: none;
+    width: 260px;
+    height: 260px;
+    background: url("../img/service-hover.png") no-repeat;
+}
+
+.wrapper_black section .service_block .service_link:hover .service_opacity-plus {
+    display: block;
+    color: #F3B519;
+}
+
+.wrapper_black section .service_block .service_link:hover .service_title {
+    color: #F3B519;
+}
+
+
+.wrapper_grey {
+    width: 100%;
+    height: 544px;
+    background: #F6F6F6;
+}
+
+.wrapper_grey .news-banners {
+    padding-top: 60px;
+    content: "";
+    overflow: hidden;
+    clear: both;
+    width: 1160px;
+    height: 484px;
+    margin: 0 auto;
+}
+
+.wrapper_grey .news-banners .news_title {
+    margin-left: 20px;
+    margin-bottom: 45px;
+    font-family: "Ubuntu Medium", arial;
+    font-size: 24px;
+}
+
+.wrapper_grey .news-banners .news {
+    float: left;
+    width: 579px;
+    height: 482px;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post {
+    content: "";
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    display: block;
+    width: 577px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_month {
+    position: absolute;
+    top: 10px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #288CEA;
+    font-family: "Ubuntu Medium", arial;
+    font-size: 15px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_day {
+    position: absolute;
+    top: 50px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #F3B519;
+    font-family: "Ubuntu Medium", arial;
+    font-size: 15px;
+    line-height: 40px;
+    color: #000;
+    text-align: center;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_img {
+    float: left;
+    margin-left: 20px;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_review {
+    float: left;
+    margin-left: 25px;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_review .news_review-title {
+    font-family: "Ubuntu Medium", arial;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_review .news_review-title .news_review-title-link {
+    text-decoration: none;
+    color: #33363B;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_review .news_review-title .news_review-title-link:hover {
+    color: #288CEA;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_review .news_autor-count {
+    font-size: 13px;
+    color: #9D9D9D;
+    margin-bottom: 30px;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_review .news_autor-count .news_autor, .wrapper_grey .news-banners .news .news_latest-post .news_review .news_autor-count .news_count-com {
+    color: #2A90F2;
+}
+
+.wrapper_grey .news-banners .news .news_latest-post .news_review .news_par {
+    font-size: 13px;
+    color: #9D9D9D;
+    width: 380px;
+    height: 80px;
+}
+
+.wrapper_grey .news-banners .banners {
+    float: left;
+    width: 536px;
+    height: 482px;
+    margin-left: 43px;
+}
+
+.wrapper_grey .news-banners .banners .banners_title {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-family: "Ubuntu Medium", arial;
+    font-size: 24px;
+}
+
+
+.logos {
+    width: 1160px;
+    height: 242px;
+    margin: 0 auto;
+}
+
+.logos img {
+    padding-top: 85px;
+}
+
+
+.info {
+    width: 1160px;
+    height: 265px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.info .info-block {
+    float: left;
+    width: 290px;
+    height: 240px;
+}
+
+.info .info-block .info-block_title {
+    font-family: "Ubuntu Medium", arial;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 20px;
+    margin-bottom: 45px;
+}
+
+.info .info-block .info-block_menu-links {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info .info-block .info-block_menu-links .info-block_link {
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 13px;
+    color: #818284;
+}
+
+.info .info-block .info-block_menu-links .info-block_link:hover {
+    color: #288CEA;
+}
+
+.info .info-block .info-block_menu-links .info-block_item:not(:last-child) {
+    border-bottom: 1px solid #818284;
+}
+
+
+.wrapper_foot {
+    width: 100%;
+    height: 60px;
+    background: #373A3E;
+}
+
+.wrapper_foot footer {
+    width: 1160px;
+    height: 44px;
+    margin: 0 auto;
+    padding-top: 16px;
+}
+
+.wrapper_foot footer .footer_par {
+    line-height: 20px;
+    font-size: 12px;
+    color: #818284;
+}
+
+.wrapper_foot footer .footer_par .footer_space-left {
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+.wrapper_foot footer .footer_par .footer_space-right {
+    margin-left: 33%;
+}
+
